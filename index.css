@@ -1,0 +1,135 @@
+
+.card:hover {
+    border-color: rgb(145, 255, 0);
+    box-shadow: 0 0 10px 2px black;
+
+    transform: scale(0.9);
+}
+
+.card-body:hover {
+    border-color: aqua;
+    box-shadow: 0 0 10px 2px black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+
+    display: flex;
+    background-color: #ccc;
+    justify-content: center;
+    height: 100px;
+
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+
+    padding: 30px;
+
+}
+
+li {
+    display: flex;
+    padding-right: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.search {
+    display: flex;
+    height: 4%;
+    padding: 3%;
+
+
+
+}
+
+.input {
+    width: 20%;
+    height: 10%;
+    margin-left: 60%;
+   margin-top:  4%;
+
+}
+
+
+.img {
+    padding-left: 1%;
+    margin-top: 4%;
+}
+
+button {
+    width: 5%;
+    height: 2%;
+    margin: 30px;
+}
+
+ol li img {
+
+    width: 20px;
+    padding-right: 10px;
+}
+
+.div img {
+    width: 70%;
+    margin-left: 15%;
+
+    margin-top: 10px;
+    border-radius: 15px;
+    position: relative;
+
+    top: 7%;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container {
+    background-color: rgb(75, 78, 81);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.div h1 {
+    display: flex;
+    color: white;
+    position: relative;
+    bottom: 20%;
+    left: 40%;
+    width: 20%;
+    font-weight: bolder;
+}
+footer{
+    background-color: #ccc;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+    font-size: larger;
+}
+.blog{
+    float: right;
+    
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: larger;
+    padding: 20px;
+}
+.blo{
+    float: left;
+}
